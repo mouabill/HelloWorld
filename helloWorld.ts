@@ -1,8 +1,6 @@
 class HelloWorld {
 
-    firstName: string;  
-    lastName: string; 
-    constructor(firstName: string, lastName: string) {
+    constructor(public firstName: string, public lastName: string) {
         this.firstName = firstName; 
         this.lastName =  lastName; 
 
