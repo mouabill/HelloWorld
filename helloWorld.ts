@@ -1,8 +1,6 @@
 class HelloWorld {
 
-    firstName: string;  
-    lastName: string; 
-    constructor(firstName: string, lastName: string) {
+    constructor(public firstName: string, public lastName: string) {
         this.firstName = firstName; 
         this.lastName =  lastName; 
 
@@ -10,7 +8,7 @@ class HelloWorld {
 
 
     sayHello() {
-            console.log('Hello world! ' + 'My name is ' + this.firstName + ' ' + this.lastName);
+            console.log('Hello world! ' + 'My name is ' + this.firstName + ' ' + this.lastName + '.');
     }
 }
 
